@@ -1,0 +1,6 @@
+evtomask.lo: evtomask.c \
+ /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h \
+ config.h /home/runner/.local/include/X11/X.h
+/nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h:
+config.h:
+/home/runner/.local/include/X11/X.h:

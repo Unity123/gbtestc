@@ -1,0 +1,76 @@
+[ 13309.207] _XSERVTransmkdir: Owner of /tmp/.X11-unix should be set to root
+[ 13309.215] 
+X.Org X Server 1.20.14
+X Protocol Version 11, Revision 0
+[ 13309.216] Build Operating System: Nix 
+[ 13309.217] Current Operating System: Linux 6b9bcc9bcca7 6.5.0-1014-gcp #14~22.04.1-Ubuntu SMP Sat Feb 10 04:57:00 UTC 2024 x86_64
+[ 13309.217] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.5.0-1014-gcp root=PARTUUID=0ba9641f-e3b9-401d-a77d-257b02481c0e ro console=ttyS0,115200 panic=-1
+[ 13309.219] Build Date: 15 December 2021  07:01:53PM
+[ 13309.219]  
+[ 13309.219] Current version of pixman: 0.42.2
+[ 13309.220] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[ 13309.220] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 13309.223] (==) Log file: "/home/runner/gbtestc/.local/share/xorg/Xorg.1.log", Time: Tue Mar  5 21:23:20 2024
+[ 13309.223] (==) Using system config directory "/nix/store/s9ay0whi4jrnn5wcxvvhi1rbbsrpp08l-xorg-server-1.20.14/share/X11/xorg.conf.d"
+[ 13309.224] (==) No Layout section.  Using the first Screen section.
+[ 13309.224] (==) No screen section available. Using defaults.
+[ 13309.224] (**) |-->Screen "Default Screen Section" (0)
+[ 13309.225] (**) |   |-->Monitor "<default monitor>"
+[ 13309.226] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[ 13309.226] (==) Automatically adding devices
+[ 13309.226] (==) Automatically enabling devices
+[ 13309.226] (==) Automatically adding GPU devices
+[ 13309.226] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[ 13309.226] (==) FontPath set to:
+	
+[ 13309.226] (==) ModulePath set to "/nix/store/s9ay0whi4jrnn5wcxvvhi1rbbsrpp08l-xorg-server-1.20.14/lib/xorg/modules"
+[ 13309.226] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[ 13309.226] (II) Loader magic: 0x62bd40
+[ 13309.226] (II) Module ABI versions:
+[ 13309.227] 	X.Org ANSI C Emulation: 0.4
+[ 13309.227] 	X.Org Video Driver: 24.1
+[ 13309.227] 	X.Org XInput driver : 24.1
+[ 13309.227] 	X.Org Server Extension : 10.0
+[ 13309.227] (EE) dbus-core: error connecting to system bus: org.freedesktop.DBus.Error.FileNotFound (Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory)
+[ 13309.230] (II) no primary bus or device found
+[ 13309.230] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[ 13309.231] (II) LoadModule: "glx"
+[ 13309.231] (II) Loading /nix/store/s9ay0whi4jrnn5wcxvvhi1rbbsrpp08l-xorg-server-1.20.14/lib/xorg/modules/extensions/libglx.so
+[ 13309.235] (II) Module glx: vendor="X.Org Foundation"
+[ 13309.235] 	compiled for 1.20.14, module version = 1.0.0
+[ 13309.236] 	ABI class: X.Org Server Extension, version 10.0
+[ 13309.236] (==) Matched modesetting as autoconfigured driver 0
+[ 13309.236] (==) Matched fbdev as autoconfigured driver 1
+[ 13309.236] (==) Matched vesa as autoconfigured driver 2
+[ 13309.236] (==) Assigned the driver to the xf86ConfigLayout
+[ 13309.236] (II) LoadModule: "modesetting"
+[ 13309.237] (II) Loading /nix/store/s9ay0whi4jrnn5wcxvvhi1rbbsrpp08l-xorg-server-1.20.14/lib/xorg/modules/drivers/modesetting_drv.so
+[ 13309.240] (II) Module modesetting: vendor="X.Org Foundation"
+[ 13309.240] 	compiled for 1.20.14, module version = 1.20.14
+[ 13309.240] 	Module class: X.Org Video Driver
+[ 13309.240] 	ABI class: X.Org Video Driver, version 24.1
+[ 13309.241] (II) LoadModule: "fbdev"
+[ 13309.241] (WW) Warning, couldn't open module fbdev
+[ 13309.242] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[ 13309.242] (II) LoadModule: "vesa"
+[ 13309.242] (WW) Warning, couldn't open module vesa
+[ 13309.242] (EE) Failed to load module "vesa" (module does not exist, 0)
+[ 13309.242] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[ 13309.243] (EE) 
+Fatal server error:
+[ 13309.244] (EE) parse_vt_settings: Cannot open /dev/tty0 (No such file or directory)
+[ 13309.247] (EE) 
+[ 13309.248] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[ 13309.252] (EE) Please also check the log file at "/home/runner/gbtestc/.local/share/xorg/Xorg.1.log" for additional information.
+[ 13309.252] (EE) 
+[ 13309.253] (WW) xf86CloseConsole: KDSETMODE failed: Bad file descriptor
+[ 13309.253] (WW) xf86CloseConsole: VT_GETMODE failed: Bad file descriptor
+[ 13309.253] (EE) Server terminated with error (1). Closing log file.
